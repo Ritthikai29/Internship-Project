@@ -1,0 +1,15 @@
+
+/php-config-docker/
+/service/upload
+
+/projects/
+/DEVSENSE/
+.DS_Store
+
+
+./error.log
+**/error.log
+
+**/**/error.log
+
+.desktop.ini

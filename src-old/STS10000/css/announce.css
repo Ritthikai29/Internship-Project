@@ -1,0 +1,51 @@
+.table-announce {
+    width: 100%;
+}
+
+.thead-sequ {
+    padding: 0 3rem;
+}
+
+.up-down-arrow {
+    color: white;
+}
+
+button.up-down-arrow {
+    display: block;
+    background-color: inherit;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.thead-header th {
+    margin: 5rem;
+    padding: 1rem auto;
+
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0px 0.75rem;
+}
+
+th.thead-sequ, .radis-seq{
+    border-radius: 5px 0 0 5px ;
+    border-right: 1px solid #DEDEDE;
+}
+th.thead-project, .radis-project{
+    border-radius: 0 5px 5px 0 ;
+
+}
+
+tbody {
+    background-color: #ffffff; /* Optional: Add background color to the body rows */
+    border-spacing: 0 10rem; /* Adjust the vertical spacing (10px in this example) */
+}
+
+th, td {
+    padding: 8px; /* Optional: Add padding to cells for better readability */
+}
+
+

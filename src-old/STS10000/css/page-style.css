@@ -1,0 +1,35 @@
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons .icons{
+   margin: 5px
+}
+
+.dropdown-select{
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.search-dropdown{
+  background-color: white;
+  list-style: none;
+  padding: 1rem 1.5rem;
+}
+
+.search-dropdown:hover{
+  background-color: #ececec;
+}
+
+.ui-menu{
+  border: 1px solid black;
+  background-color: white;
+  width: fit-content !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul{
+  padding: 0 !important;
+}

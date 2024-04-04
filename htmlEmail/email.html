@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+      border: 2px solid #ddd;
+      padding: 60px;
+      border-radius: 10px;
+      margin: 20px;
+      margin: 20px;
+    }
+        .text {
+      
+      padding: 10px;
+      border-radius: 10px;
+      margin: 20px;
+      
+    }
+        .text-xl {
+      
+      padding-left: 10px;
+      border-radius: 10px;
+      margin: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+        .button {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .margin-left {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="text">
+        From: sts_automail@scg.com &lt;sts_automail@scg.com&gt; Sent: Monday, May 8, 2023 11:08 AM To: Ekkaphong Meesuk
+        &lt;ekkaphom@scg.com&gt; Subject: แจ้งผลการประกวดราคา เลขที่เอกสาร : XXXXXXX
+    </p>
+    <p class="text-xl "  >ไฟล์แนบ :</p>
+    <p class="text">
+        <span class="button">ขอบเขต.pdf</span>
+        <span class="button">ใบเสนอราคา.pdf</span>
+        <span class="button">ราคากลาง.pdf</span>
+        <span class="button">ขออนุมัติจ้างงาน.pdf</span>
+    </p>
+
+<div class="container ">
+
+    <p>
+        เรื่อง ผู้เข้าร่วมประกวดราคา
+    </p>
+    
+    <span >เรื่อง ขอเชิญเข้าร่วมประกวดราคางาน  </span>
+    <span >"โครงการติดตั้งระบบประตูอัตโนมัติ" </span>
+    <span>เลขที่เอกสารXXXXX บริษัท ปูนซิเมนต์ไทย(ทุ่งสง) จำกัด โดยหน่วยงาน </span>
+    <span id="dynamicText"></span>
+    <span>ได้ ประกวดราคา</span>
+    <span >"โครงการติดตั้งระบบประตูอัตโนมัติ"</span>
+    <span >เลขที่เอกสาร XXXXX" บัดนี้ได้ดำเนินการเสร็จเรียบร้อยแล้ว</span>
+    <span >บริษัท/หจก ของท่าน ได้รับการพิจารณา </span>
+    <span >"ชนะการประกวด"</span>
+    <span >ขอให้ท่านดำเนินการ ดังนี้</span>
+    <!-- ได้ ประกวดราคา 
+    "โครงการติดตั้งระบบประตูอัตโนมัติ" 
+    เลขที่เอกสาร XXXXX" บัดนี้ได้ดำเนินการเสร็จเรียบร้อยแล้ว
+    บริษัท/หจก ของท่าน ได้รับการพิจารณา 
+    "ชนะการประกวด"
+    ขอให้ท่านดำเนินการ ดังนี้ -->
+
+    <p class="margin-left">
+        1. ติดต่อเจ้าของงาน เพื่อมอบพื้นที่ และกำหนดวันเริ่มงานต่อไป <br>
+        2. ผู้ประสานงานโครงการ คุณระบบ อัตโนมัติ / People Management Manager-TS /prapask@scg.com
+    </p>
+    
+    <p>
+        จึงแจ้งมาเพื่อทราบและโปรดดำเนินการตามรายละเอียดข้างต้น
+    </p>
+    
+    <p>
+        บุญธรรม วงศ์วิจารณ์ Ecosystem Management Manager
+    </p>
+    
+    <p>
+        สำเนา : หน่วยงานเจ้าของงาน / หน่วยงานบริการงานจ้างเหมา
+    </p>
+    
+    </div>
+    <script>
+        // ตัวอย่างการใส่ค่าที่ได้รับมาในตำแหน่งที่มี id เท่ากับ dynamicText
+        const dynamicTextValue = " ";
+        document.getElementById("dynamicText").innerText = dynamicTextValue;
+    </script>
+</body>
+
+</html>

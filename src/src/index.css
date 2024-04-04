@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'kanit', 'sans-serif';
+}
+
+.input-disable {
+  border-radius: 7px;
+  border: 1px solid #A6A6A6;
+  background: #D4D4D4;
+  box-shadow: 2px -11px 21px -11px rgba(0, 0, 0, 0.25) inset;
+}
+
+.input-black{
+  background: #000;
+}
+
+.confirm-input-price input[disabled]{
+  color: #000;
+  border: 1px solid #A6A6A6;
+  background: #D4D4D4;
+  box-shadow: 2px -11px 21px -11px rgba(0, 0, 0, 0.25) inset;
+}
+
+input[type="text"][disabled] {
+  border: 1px solid #A6A6A6;
+  background: #D4D4D4;
+  box-shadow: 2px -11px 21px -11px rgba(0, 0, 0, 0.25) inset;
+}
+
+.confirm-input input[type="text"][disabled] {
+  border-radius: 7px;
+  border: 1px solid #A6A6A6;
+  background: #FFE8AD;
+  box-shadow: 2px -11px 21px -11px rgba(0, 0, 0, 0.25) inset;
+}
+
+.confirm-total-price{
+  border-radius: 7px;
+  border: 1px solid #A6A6A6;
+  background: #FFE8AD;
+  box-shadow: 2px -11px 21px -11px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+input[type="file"][disabled] {
+  border-radius: 7px;
+  border: 1px solid #A6A6A6;
+  background: #D4D4D4;
+  box-shadow: 2px -11px 21px -11px rgba(0, 0, 0, 0.25) inset;
+}
+

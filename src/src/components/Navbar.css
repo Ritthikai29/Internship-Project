@@ -1,0 +1,28 @@
+
+.icon-button{
+    background-color: rgb(122, 0, 223);
+}
+
+.dropdown{
+    position: absolute;
+    z-index: 4;
+    align-items: center;
+    top: 65px;
+    right: 0px;
+    background-color: #2B2A2A;
+    width: 140px;
+    overflow: hidden;
+    padding: 6px;
+   
+
+}
+
+.menu-item {
+    display: flex;
+    border-color: azure;
+    margin-bottom: 5px;
+    font-size:large; 
+    justify-content: center;
+}
+
+

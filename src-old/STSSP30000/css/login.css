@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label,
+input {
+    display: block;
+    width: 97%;
+    
+}
+.container #login-form{
+    width: 280px;
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    width: auto;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    width: 200px;
+    background-color: #2B3467;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+input:required:invalid {
+    color: red;
+}
+
+.employee-input{
+    display: flex;
+    align-items: center;
+}
+
+.prefix{
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #eee;
+    display: table-cell;
+    border: 1px solid #ccc;
+}

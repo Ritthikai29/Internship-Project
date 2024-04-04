@@ -1,0 +1,33 @@
+version: "3.8"
+services:
+  php-apache-environment:
+    container_name: php-apache
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "./:/var/www/html/STSBidding"
+      - "./php-config-docker/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini"
+    ports:
+      - 8000:80
+
+  # db-sql-srv:
+  #   container_name: db-sql-srv
+  #   image: mcr.microsoft.com/azure-sql-edge
+  #   environment:
+  #     MSSQL_SA_PASSWORD: "Tanachod02"
+  #     ACCEPT_EULA: "Y"
+  #   ports:
+  #     - 1433:1433
+    
+
+#   # db-postgres:
+#   #   image: "postgres"
+#   #   restart: always
+#   #   ports:
+#   #       - 5432:5432
+#   #   environment:
+#   #       - POSTGRES_PASSWORD=Tanachod02
+
+volumes:
+  sql_data:
